@@ -18,5 +18,5 @@ self.addEventListener('push', function (event) {
   self.addEventListener('notificationclick', function (event) {
 	console.log('Notification click received.')
 	event.notification.close()
-	event.waitUntil(clients.openWindow('<https://fancy-melba-7c1c21.netlify.app>'))
+	event.waitUntil(clients.openWindow('<https://testnextpwa-eight.vercel.app>'))
   })
